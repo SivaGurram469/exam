@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between ;
+}
+
+
+.all{
+  position: relative;
+  width: 1500px;
+  height: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+  text-decoration: none;
+  top: 0;
+  left: 0;
+  width: 95px;
+  height: 100%;
+  border-radius: 8px;
+  
+
+}
+
+.container-2{
+    position: absolute;
+    left: 750px;
+
+}
+ 
+.item-6{
+    position:relative;
+    left: 500px;
+    padding: 50px;
+
+}
+
+.contact>item1{
+   grid-area: a;
+}
+.contact>item2{
+   grid-area: b;
+}
+.contact>item3{
+   grid-area: c;
+}
+.contact>item4{
+   grid-area: d;
+}
+.contact>item5{
+   grid-area: e;
+}
+.contact>item6{
+   grid-area: f;
+}
+.contact>item7{
+   grid-area: g;
+}
+.contact>item8{
+   grid-area: h;
+}
+.contact>item9{
+   grid-area: i;
+}
+
+.item1{
+    color: red;
+    font-size: 30px;
+}
+.item2{
+    font-size: 30px;
+}
+.item4{
+    font-size: 30px;
+}
+.item6{
+    font-size: 30px;
+}
+input[type="text"],input[type="email"],input[type="text"]{
+    width:1250px;
+    padding: 20px;
+    
+
+}
+.item9{
+    margin-top: 40px;
+    font-size: 30px;
+}
+button{
+    width:1300px;
+    background-color: grey;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
